@@ -227,6 +227,7 @@ color:aliceblue;
     }
 }
 .footer .text_div p{
+    padding: 0 5vw;
     text-align: justify;
 }
 .footer .footer_icon a{
