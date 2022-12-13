@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@200;300;400;500&family=Poppins:wght@100;200;300;400;600&display=swap');
 *{
     margin: 0;
     padding:0;
@@ -75,7 +76,7 @@
     color:orange;
 }
 #mainNav .navbar-collapse .nav-item .active, #mainNav .navbar-collapse .nav-item:hover .nav-link, #mainNav .navbar-collapse .nav-item .dropdown-item:hover{
- background: orange;
+ background: rgb(2, 117, 216);
  color:white;
  border-radius:5px;
 }
@@ -118,9 +119,12 @@ position: relative;
 }
 
 /* tab content */
+.tabs ul li a {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 400;
+}
 .tabs ul li,.tabs ul .active ,.tabs ul li:hover{
 border: 0;
-background:orange;
 color:white;
 font-weight: 500;
 font-size: 1.6vw;
@@ -133,6 +137,15 @@ border-radius:5%;
     margin: 10px 0;
 box-shadow: 2px 4px 2px rgb(185, 184, 184);
 }
+.tab-content .card .card-header h5{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 400;
+}
+.tab-content .card .card-body .lead{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 400;
+    color:gray;
+} 
 .tab-content .card .icon{
     margin-left: auto;
     padding-right: 5%;
@@ -227,7 +240,8 @@ color:aliceblue;
     }
 }
 .footer .text_div p{
-    padding: 0 5vw;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 300;
     text-align: justify;
 }
 .footer .footer_icon a{
